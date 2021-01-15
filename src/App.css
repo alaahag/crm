@@ -1,0 +1,68 @@
+.App-logo {
+	height: 34px;
+	transform: scale(1.1);
+}
+
+body {
+	background-color: #ecf0f1;
+	scrollbar-color: #2d3940 #ecf0f1;
+}
+
+.App-header {
+	display: flex;
+	flex-direction: row;
+	align-items: baseline;
+	justify-content: center;
+	font-size: calc(10px + 2vmin);
+	padding-top: 10px;
+}
+
+.MuiPaper-root:hover, .analytics-icon:hover {
+	box-shadow: 8px 8px 8px 0px rgba(0,0,0,0.90) !important;
+}
+
+.MuiBreadcrumbs-li {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.MuiBreadcrumbs-li:hover {
+	text-decoration: underline;
+}
+
+.MuiPaper-root, .MuiTypography-displayBlock, .analytics-icon {
+	box-shadow: 7px 7px 7px 0px rgba(0,0,0,0.90) !important;
+}
+
+.MuiPaper-root, .MuiTypography-displayBlock, .MuiNativeSelect-select, .MuiInputLabel-formControl {
+	font-family: 'Acme', sans-serif !important;
+	word-spacing: 3px;
+}
+
+.MuiIconButton-label:hover {
+	transform: scale(1.1);
+}
+
+.MuiSvgIcon-root {
+	font-size: 1.3em !important;
+}
+
+.stretched {
+	display: block;
+	width: 92.5%;
+	text-align: center;
+}
+
+.MuiGrid-grid-xs-6 {
+	max-width: 100% !important;
+}
+
+.fix_grid_text_align_right {
+	align-self: baseline;
+	text-align: -webkit-right;
+	text-align: -moz-right;
+}
+
+.center_for_icon_grid {
+	text-align: center;
+}
