@@ -5,7 +5,7 @@ sequelize = require('sequelize'),
 path = require('path'),
 app = express(),
 PORT = process.env.PORT || 5000,
-URI = process.env.URI,
+URI = process.env.CLEARDB_PURPLE_URL,
 API_PATH = require('./src/Constants').API_PATH;
 
 app.use(express.urlencoded({ extended: false }));

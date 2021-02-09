@@ -3,7 +3,7 @@ CRM_JSON = require('../CRM.json'),
 express = require('express'),
 Sequelize = require('sequelize'),
 router = express.Router(),
-sequelize = new Sequelize(process.env.URI);
+sequelize = new Sequelize(process.env.CLEARDB_PURPLE_URL);
 
 
 router.get('/insertAllData', function(req, res){
