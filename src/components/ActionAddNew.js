@@ -21,8 +21,8 @@ const useStyles = makeStyles((theme) => ({
 		outline: 0,
 		marginTop: 25,
 		marginBottom: 25,
-		padding: theme.spacing(1, 4, 4),
-		width: '17.5em',
+		padding: theme.spacing(1, 2, 2),
+		width: '16.5em',
 		backgroundColor: theme.palette.background.paper,
 		border: '2px solid #000'
 	},
@@ -32,7 +32,7 @@ const useStyles = makeStyles((theme) => ({
 		marginTop: 25
 	},
 	texts: {
-		width: '15.3em'
+		width: '14.2em'
 	},
 	font: {
 		fontFamily: "'Acme', sans-serif",

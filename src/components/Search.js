@@ -12,7 +12,10 @@ const useStyles = makeStyles((theme) => ({
         marginLeft: 2,
         marginBottom: 20,
         fontSize: 25,
-        justifyContent: 'center'
+        justifyContent: 'center',
+    },
+    searchText: {
+        maxWidth: '51%'
     },
     formControl: {
         margin: theme.spacing(1),
@@ -46,7 +49,7 @@ const Search = observer((props) => {
             <Grid>
                 <SearchIcon />
             </Grid>
-            <Grid item>
+            <Grid item className={classes.searchText}>
                 <TextField label="Search & Filter" name="searchText" value={search.text} onChange={handleChange}/>
             </Grid>
             <FormControl className={classes.formControl}>

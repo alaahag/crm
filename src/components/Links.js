@@ -8,7 +8,8 @@ import { Link, useLocation } from 'react-router-dom';
 
 const useStyles = makeStyles((theme) => ({
 	links: {
-		color: 'white'
+		color: 'white',
+		fontSize: '86%'
 	},
 	link_active: {
 		display: 'flex',

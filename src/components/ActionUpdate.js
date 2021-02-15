@@ -21,8 +21,8 @@ const useStyles = makeStyles((theme) => ({
 		outline: 0,
 		marginTop: 14,
 		marginBottom: 20,
-		padding: theme.spacing(1, 4, 4),
-		width: '17.5em',
+		padding: theme.spacing(1, 2, 2),
+		width: '16.5em',
 		backgroundColor: theme.palette.background.paper,
 		border: '2px solid #000',
 	},
@@ -30,7 +30,7 @@ const useStyles = makeStyles((theme) => ({
 		width: '8em'
 	},
 	texts: {
-		width: '8.3em'
+		width: '6.8em'
 	},
 	justify: {
 		justifyContent: 'center',

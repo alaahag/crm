@@ -30,7 +30,7 @@ const useStyles = makeStyles(() => ({
 
     description: {
         marginLeft: 1,
-        fontSize: '55%',
+        fontSize: '48%',
         fontFamily: "'Acme', sans-serif"
     }
 }));
